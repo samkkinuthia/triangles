@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ANGLES CLUB!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="triangles.png">
+</head>
+
+<body>
+
+    <main>
+        <section id="tri">
+            <h1>
+                WELCOME TO THE ANGLES CLUB.
+            </h1>
+            <p>
+                Tri CLUB, is a simple site where you get to explore more on triangles and how cool they are and their creation protocal. Here we will explore their possibility of existance as a result of the lengths provided.
+            </p>
+        </section>
+        <section id="tri-types">
+            <p>
+                There are four types of triangles but we will only be learning of three for this project they are:
+
+                <div class="equi">
+                    <h3>
+                        Equilateral Traingle
+                    </h3>
+                    <p>
+                        In geometry, an equilateral triangle is a triangle in which all three sides are equal. In the familiar Euclidean geometry, an equilateral triangle is also equiangular; that is, all three internal angles are also congruent to each other and are each 60°.
+                        It is also a regular polygon, so it is also referred to as a regular triangle.
+                    </p>
+                </div>
+                <div class="scal">
+                    <h3>
+                        Scalene Traingle
+                    </h3>
+                    <p>
+                        A scalene triangle is a triangle that has three unequal sides
+                    </p>
+                </div>
+                <div class="iso">
+                    <h3>
+                        Isoscles Traingle
+                    </h3>
+                    <p>
+                        An isosceles triangle is a triangle with (at least) two equal sides. In the figure above, the two equal sides have length and the remaining side has length . This property is equivalent to two angles of the triangle being equal. An isosceles triangle
+                        therefore has both two equal sides and two equal angles.
+                    </p>
+                </div>
+            </p>
+        </section>
+        <form class="query-form">
+            <input id="hyp" required type="number" placeholder="hypotenuse">
+
+            <input id="adj" required type="number" placeholder="adjacent">
+
+            <input id="opp" required type="number" placeholder="opposite">
+
+            <button type="submit" id="btn">Test triangle</button>
+        </form>
+
+        <div class="render">
+            <h2 id="type"></h2>
+        </div>
+
+    </main>
+</body>
+<script src="triangles.js"></script>
+
+</html>
